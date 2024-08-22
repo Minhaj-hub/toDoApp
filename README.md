@@ -1,16 +1,29 @@
 # todolist
 
-A new Flutter project.
+This is a basic ToDo app for a selection test.
 
-## Getting Started
+Technologies used:
 
-This project is a starting point for a Flutter application.
+Framework: Flutter
+Programming Language: Dart
+State Management: BLoC
+Software Design Pattern: MVVM
 
-A few resources to get you started if this is your first Flutter project:
+Thought Process and Design Decisions
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Understanding the Requirements
+  The app needed to allow users to create, edit, delete, prioritize, and manage tasks effectively. Additionally, features such as reminders, notifications, task sorting, and searching were 
+  identified as essential for enhancing user experience.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Choosing the Architecture
+   To maintain a clean and scalable codebase, I opted to use the MVVM (Model-View-ViewModel) design pattern.
+
+3. State Management
+   Given the requirement to manage the state of tasks across the app, I chose to use the BLoC (Business Logic Component) pattern
+   
+5. Local Storage
+   For storing tasks locally on the device, I opted to use the sqflite plugin.
+
+6. User Interface Design
+   The UI was designed following Material Design principles, ensuring a clean, intuitive, and responsive interface.
+

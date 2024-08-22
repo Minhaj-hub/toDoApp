@@ -4,9 +4,9 @@ This is a basic ToDo app for a selection test.
 
 Technologies used:
 
-Framework: Flutter
-Programming Language: Dart
-State Management: BLoC
+Framework: Flutter,
+Programming Language: Dart,
+State Management: BLoC,
 Software Design Pattern: MVVM
 
 Thought Process and Design Decisions
